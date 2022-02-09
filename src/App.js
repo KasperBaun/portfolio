@@ -5,7 +5,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer";
-import Resume from "./Components/Resume/ResumeNew";
+import Resume from "./Components/Resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";

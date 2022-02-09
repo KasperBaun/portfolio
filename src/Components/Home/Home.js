@@ -1,8 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeImage from "../../Assets/programmer.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import Type from "./Type";
 
 function Home() {
@@ -28,12 +32,57 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+              <img src={homeImage} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>
+        </Container>
+
+        <Container fluid className="home-about-section" id="about">
+        <Row>
+          <Col md={12} className="home-about-social" /*style={{ paddingBottom: 40, paddingTop: 100}}*/>
+            <h1>FIND ME ON</h1>
+          
+            <ul className="home-about-social-links">
+
+              <li className="social-icons">
+                <a
+                  href="https://www.github.com/KasperBaun"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+            
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/kasper-baun/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/kasperbaun/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
+
+            <p>Feel free to <span className="green"><b>connect</b></span> with me</p>
+
+          </Col>
+        </Row>
       </Container>
-      <Home2 />
     </section>
   );
 }

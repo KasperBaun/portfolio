@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { BsChevronDoubleRight } from "react-icons/bs";
 
 function AboutCard() {
   return (
@@ -8,30 +8,42 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
-            <br />
-            <br />
+            Hi everyone, I am <span className="green">Kasper Baun </span>
+            from <span className="purple"> Copenhagen, Denmark.</span><br />
+            I am a B.Eng student in Softwaretechnology at the Technical University of Denmark (DTU).<br />
+            I have spent most of my coding time in 
+
+            <ul className="green">
+              <li>Java</li>
+              <li>Kotlin</li>
+              <li>C</li>
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            and i have coded a project or two in
+            <ul className="green">
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>Assembly</li>
+              <li>Machinecode (16-bit theoretical CPU)</li>
+              <li>LaTeX</li>
+            </ul>
+            My fields of interest are building modern responsive &nbsp; Mobile Applications in native Android using Kotlin and Web Development with React using JavaScript or TypeScript<br/>
             Apart from coding, some other activities that I love to do!
-          </p>
+        
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <BsChevronDoubleRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <BsChevronDoubleRight /> Cooking 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <BsChevronDoubleRight /> Hiking and outdoor life
             </li>
           </ul>
-
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
