@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { BsChevronDoubleRight } from "react-icons/bs";
 
 function AboutCard() {
   return (
@@ -29,20 +28,8 @@ function AboutCard() {
               <li>Machinecode (16-bit theoretical CPU)</li>
               <li>LaTeX</li>
             </ul>
-            My fields of interest are building modern responsive &nbsp; Mobile Applications in native Android using Kotlin and Web Development with React using JavaScript or TypeScript<br/>
-            Apart from coding, some other activities that I love to do!
-        
-          <ul>
-            <li className="about-activity">
-              <BsChevronDoubleRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <BsChevronDoubleRight /> Cooking 
-            </li>
-            <li className="about-activity">
-              <BsChevronDoubleRight /> Hiking and outdoor life
-            </li>
-          </ul>
+            My fields of interest are building modern responsive &nbsp; native android mobile applications using Kotlin and Jetpack Compose and Web Development with React using JavaScript or TypeScript<br/>  
+      
           </p>
         </blockquote>
       </Card.Body>
