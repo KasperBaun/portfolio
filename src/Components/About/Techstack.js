@@ -1,40 +1,56 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJava,
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiGit,
+  DiAndroid
 } from "react-icons/di";
-import {  SiKotlin } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import {  SiKotlin, SiCsharp, SiMysql, SiJava, SiC, SiTypescript } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <FaJava />
+        <SiJava />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiKotlin />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiC />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiCsharp />
       </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-     
-    
-      
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiNodejs />
       </Col>
-    
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+
     </Row>
   );
 }
