@@ -22,8 +22,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> KASPER BAUN</strong>
+                I'm
+                <strong className="main-name"> Kasper Baun</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -49,7 +49,7 @@ function Home() {
                 <a
                   href="https://www.github.com/KasperBaun"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
@@ -60,7 +60,7 @@ function Home() {
                 <a
                   href="https://www.linkedin.com/in/kasper-baun/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
@@ -70,7 +70,7 @@ function Home() {
                 <a
                   href="https://www.instagram.com/kasperbaun/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />

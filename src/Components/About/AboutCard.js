@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { BsChevronDoubleRight } from "react-icons/bs";
 
 function AboutCard() {
   return (
@@ -8,41 +7,25 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone, I am <span className="green">Kasper Baun </span>
-            from <span className="purple"> Copenhagen, Denmark.</span><br />
-            I am a B.Eng student in Softwaretechnology at the Technical University of Denmark (DTU).<br />
-            I have spent most of my coding time in 
+            My name is Kasper and I am a <span className="green">former chef</span> turned <span className="green">developer </span>
+            from <span className="green"> Copenhagen, Denmark.</span><br />
+            I am currently studying <span className="green"> Softwaretechnology</span> at the Technical University of Denmark (DTU).<br />
+            Besides cooking various dishes for 10 years and becoming a father of three 
+            I have spent most of my time in 
 
             <ul className="green">
               <li>Java</li>
               <li>Kotlin</li>
-              <li>C</li>
-              <li>SQL</li>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>JavaScript/Typescript</li>
             </ul>
             and i have coded a project or two in
             <ul className="green">
               <li>C#</li>
-              <li>JavaScript</li>
+              <li>C</li>
               <li>Assembly</li>
-              <li>Machinecode (16-bit theoretical CPU)</li>
-              <li>LaTeX</li>
             </ul>
-            My fields of interest are building modern responsive &nbsp; Mobile Applications in native Android using Kotlin and Web Development with React using JavaScript or TypeScript<br/>
-            Apart from coding, some other activities that I love to do!
-        
-          <ul>
-            <li className="about-activity">
-              <BsChevronDoubleRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <BsChevronDoubleRight /> Cooking 
-            </li>
-            <li className="about-activity">
-              <BsChevronDoubleRight /> Hiking and outdoor life
-            </li>
-          </ul>
+            I love to build modern native android mobile applications using Kotlin and Jetpack Compose and Web Development with React using JavaScript or TypeScript<br/>  
+      
           </p>
         </blockquote>
       </Card.Body>
