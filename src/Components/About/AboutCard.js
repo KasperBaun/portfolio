@@ -15,16 +15,18 @@ function AboutCard() {
 
             <ul className="green">
               <li>Java</li>
+              <li>C#</li>
               <li>Kotlin</li>
               <li>JavaScript/Typescript</li>
             </ul>
             and i have coded a project or two in
             <ul className="green">
-              <li>C#</li>
               <li>C</li>
               <li>Assembly</li>
             </ul>
-            I love to build modern native android mobile applications using Kotlin and Jetpack Compose and Web Development with React using JavaScript or TypeScript<br/>  
+            I love to build modern native android mobile applications using Kotlin and Jetpack Compose and Web Development with React using JavaScript or TypeScript.<br/>
+            Recently i've built a project with Blazor, MudBlazor, EntityFramework and WebAPI that is authenticating and authorizing calls with JWT's, all done in C#.<br/>
+            You can check it out @ <a href="https://www.github.com/KasperBaun/BoostMyEconomy" target="_blank">github</a> 
       
           </p>
         </blockquote>
